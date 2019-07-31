@@ -26,6 +26,8 @@ end
 def initial_round
   deal_card
   deal_card
+  puts display_card_total(deal_card + deal_card)
+  return
 end
 
 def hit?
@@ -43,6 +45,4 @@ end
 def runner
   # code runner here
 end
-
-return initial_round
     
