@@ -24,8 +24,8 @@ def end_game(card_total)
 end
 
 def initial_round
-  deal_card = a
-  deal_card = b
+  a = deal_card
+  b = deal_card
   puts display_card_total(a + b)
   return initial_round
 end
