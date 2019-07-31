@@ -24,7 +24,7 @@ def end_game(card_total)
 end
 
 def initial_round
-  puts display_card_total([prng.rand(1..10) + prng.rand(1..10)].sum)
+  puts display_card_total([deal_card, deal_card].sum)
   return initial_round
 end
 
