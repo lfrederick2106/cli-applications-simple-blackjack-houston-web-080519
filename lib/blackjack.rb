@@ -44,3 +44,4 @@ def runner
   # code runner here
 end
     
+p initial_round
